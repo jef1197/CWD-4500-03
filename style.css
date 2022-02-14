@@ -39,7 +39,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     display: none;
 }
 
-.menu,ul {
+.menu, nav ul {
     display: flex;
     /* width: 50%; */
 }
