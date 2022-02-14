@@ -23,7 +23,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 /* Header Styles */
 .site-header{

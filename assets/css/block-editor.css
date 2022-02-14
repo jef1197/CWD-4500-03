@@ -1,3 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: red
+}
+
+
+
+
 .wp-block-quote {
     color: blue;
 }
