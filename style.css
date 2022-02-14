@@ -1,0 +1,63 @@
+/*
+Theme Name: CWD 4500 03
+Theme URI: http://underscores.me/
+Author: Jef Ogues
+Author URI: 
+Description: A sandbox theme for class.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cwd
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+CWD 4500 03 is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+/* Reset CSS */
+*{
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header Styles */
+.site-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu,ul {
+    display: flex;
+    /* width: 50%; */
+}
+
+.menu li {
+    list-style-type: none; 
+    margin: auto 25px;
+    /* text-decoration: none; */
+}
+.menu li a {
+    text-decoration: none;
+    color: blue
+}
+.menu li a:hover {
+    text-decoration: none;
+    color: black
+}
+
+.sub-menu {
+    display: none;
+}
