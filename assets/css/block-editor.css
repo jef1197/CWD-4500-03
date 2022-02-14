@@ -28,7 +28,15 @@ h2 {
     font-weight: bold;
 }
 
+ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
 li {
+    margin-left: 15px;
     list-style-type: none; 
 }
 
@@ -44,6 +52,12 @@ pre.wp-block-code {
     font-family: "yugothi-light";
 }
 
+.wp-block-quote {
+    background-color: gainsboro;
+    border-left: 5px solid black;
+    padding-left: 15px;
+    width: 50%;
+}
 .wp-block-quote p{
     font-family: "yugothi-bold";
 }
