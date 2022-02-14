@@ -39,19 +39,20 @@ pre.wp-block-code {
 .wp-block-pullquote p{
     font-family: "yugothi-bold";
 }
+
 .wp-block-pullquote cite{
     font-family: "yugothi-light";
-    font-weight: 100;
 }
 
-
-
-.wp-block-quote {
-    color: blue;
+.wp-block-quote p{
+    font-family: "yugothi-bold";
+}
+.wp-block-quote cite{
+    font-family: "yugothi-light";
 }
 
-.wp-block-quote.is-style-fancy-quote {
-    color: tomato;
+.wp-block-quote.is-center-text {
+    text-align: center;
 }
 
 .entry-content > * {
