@@ -15,6 +15,10 @@
     font-family:  Roboto,  sans-serif;
 }
 
+.entry-title {
+    display: none;
+}
+
 /* Text Block Stlyes */
 
 p, pre {
@@ -112,6 +116,22 @@ figcaption{
     flex-direction: column;
     align-items: center;
     /* width: 100%; */
+}
+
+.page-links {
+    padding: 20px;
+}
+
+.post-page-numbers {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14pt;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.current{
+    background-color: white;
 }
 
 /* Design Block Stlyes */
