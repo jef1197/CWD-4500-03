@@ -16,7 +16,8 @@
 /* Text Block Stlyes */
 
 p, pre {
-font-size: 14pt;
+    font-size: 14pt;
+    padding: 10px;
 }
 
 p.is-style-center-text{
@@ -26,9 +27,10 @@ p.is-style-center-text{
 h2 {
     font-size: 24pt;
     font-weight: bold;
+    padding: 10px;
 }
 
-ul > li:before {
+ul.is-style-dash > li:before {
     display: inline-block;
     content: "-";
     width: 1em;
@@ -38,12 +40,17 @@ ul > li:before {
 li {
     margin-left: 15px;
     list-style-type: none; 
+    padding: 5px;
 }
 
 pre.wp-block-code {
     font-family: monospace !important;
+    padding: 10px;
 }
 
+.wp-block-pullquote {
+    padding: 10px;
+}
 .wp-block-pullquote p{
     font-family: "yugothi-bold";
 }
@@ -57,6 +64,7 @@ pre.wp-block-code {
     border-left: 5px solid black;
     padding-left: 15px;
     width: 50%;
+    padding: 10px;
 }
 .wp-block-quote p{
     font-family: "yugothi-bold";
