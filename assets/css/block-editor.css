@@ -1,3 +1,4 @@
+/* Improt Fonts */
 @font-face {
     font-family: yugothi-bold;  
     src: url(../fonts/yugothib.ttf);  
@@ -9,6 +10,7 @@
     font-weight: normal;  
 }
 
+/* Global Fonts */
 * {
     font-family:  Roboto,  sans-serif;
 }
@@ -77,6 +79,23 @@ pre.wp-block-code {
     text-align: center;
 }
 
+/* Media Block Stlyes */
+.wp-block-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+figcaption{
+    font-size: 13pt;
+    font-family: "yugothi-light";
+}
+/* Widget Block Stlyes */
+/* Theme Block Stlyes */
+/* Design Block Stlyes */
+
+/* Entry Content */
 .entry-content > * {
     max-width: 1000px;
     margin-left: auto;

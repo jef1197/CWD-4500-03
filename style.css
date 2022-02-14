@@ -31,7 +31,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    padding-left: 50px;
     height: 100px;
 }
 
