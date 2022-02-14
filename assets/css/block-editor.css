@@ -91,6 +91,16 @@ figcaption{
     font-size: 13pt;
     font-family: "yugothi-light";
 }
+
+.wp-block-cover{
+    margin-bottom: 15px;
+}
+
+.wp-block-file {
+    padding: 20px;
+    text-align: center;
+    /* margin-top: 10px; */
+}
 /* Widget Block Stlyes */
 /* Theme Block Stlyes */
 /* Design Block Stlyes */
