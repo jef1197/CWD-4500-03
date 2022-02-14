@@ -1,9 +1,20 @@
+@font-face {
+    font-family: yugothib;  
+    src: url(../fonts/yugothib.ttf);  
+    font-weight: normal;  
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Roboto,  sans-serif;
 }
 
 p {
-    color: red
+font-size: 18pt;
+}
+
+h2 {
+    font-size: 34pt;
+    font-weight: bold;
 }
 
 
