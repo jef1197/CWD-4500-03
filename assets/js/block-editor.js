@@ -8,6 +8,11 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
     label: 'Center',
 } );
 
+wp.blocks.registerBlockStyle( 'core/list', {
+    name: 'dash',
+    label: 'Dash',
+} );
+
 wp.domReady( function () {
     wp.blocks.unregisterBlockStyle( 'core/quote', 'large' );
     wp.blocks.unregisterBlockStyle( 'core/quote', 'plain' );
