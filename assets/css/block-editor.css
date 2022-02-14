@@ -1,6 +1,11 @@
 @font-face {
-    font-family: yugothib;  
+    font-family: yugothi-bold;  
     src: url(../fonts/yugothib.ttf);  
+    font-weight: normal;  
+}
+@font-face {
+    font-family: yugothi-light;  
+    src: url(../fonts/yugothil.ttf);  
     font-weight: normal;  
 }
 
@@ -29,6 +34,14 @@ li {
 
 pre.wp-block-code {
     font-family: monospace !important;
+}
+
+.wp-block-pullquote p{
+    font-family: "yugothi-bold";
+}
+.wp-block-pullquote cite{
+    font-family: "yugothi-light";
+    font-weight: 100;
 }
 
 
