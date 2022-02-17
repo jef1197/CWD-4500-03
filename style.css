@@ -62,3 +62,11 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 .sub-menu {
     display: none;
 }
+
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}

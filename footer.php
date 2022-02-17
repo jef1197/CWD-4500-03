@@ -16,6 +16,7 @@
 				<?php
 				/* translators: 1: Copyright, 2: Site. */
 				printf( esc_html__( 'Copyright %1$s by %2$s.', 'cwd' ), '2022', '<a href="' . home_url() . '">CWD 4500 03</a>' );
+				// printf( '<a href="' . home_url() . '">CWD 4500 03</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
