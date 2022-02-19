@@ -74,6 +74,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     justify-content: center;
     text-align: center;
     background-color: #5C6CFD;
+    color: white;
     height: 200px;
     width: 100%;
 }
