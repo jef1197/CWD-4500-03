@@ -1,6 +1,16 @@
 wp.blocks.registerBlockStyle( 'core/quote', {
-    name: 'fancy-quote',
-    label: 'Fancy Quote',
+    name: 'center-text',
+    label: 'Center',
+} );
+
+wp.blocks.registerBlockStyle( 'core/paragraph', {
+    name: 'center-text',
+    label: 'Center',
+} );
+
+wp.blocks.registerBlockStyle( 'core/list', {
+    name: 'dash',
+    label: 'Dash',
 } );
 
 wp.domReady( function () {

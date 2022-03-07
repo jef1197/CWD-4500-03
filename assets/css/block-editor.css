@@ -1,11 +1,147 @@
+/* Improt Fonts */
+@font-face {
+    font-family: yugothi-bold;  
+    src: url(../fonts/yugothib.ttf);  
+    font-weight: normal;  
+}
+@font-face {
+    font-family: yugothi-light;  
+    src: url(../fonts/yugothil.ttf);  
+    font-weight: normal;  
+}
+
+/* Global Fonts */
+* {
+    font-family:  Roboto,  sans-serif;
+}
+
+.entry-title {
+    display: none;
+}
+
+/* Text Block Stlyes */
+
+p, pre {
+    font-size: 14pt;
+    padding: 10px;
+}
+
+p.is-style-center-text{
+    text-align: center;
+}
+
+h2 {
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul.is-style-dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+li {
+    margin-left: 15px;
+    list-style-type: none; 
+    padding: 5px;
+}
+
+pre.wp-block-code {
+    font-family: monospace !important;
+    padding: 10px;
+}
+
+.wp-block-pullquote {
+    margin: 80px 0 ;
+    padding: 10px;
+}
+.wp-block-pullquote p{
+    font-family: "yugothi-bold";
+}
+
+.wp-block-pullquote cite{
+    font-family: "yugothi-light";
+}
+
 .wp-block-quote {
-    color: blue;
+    background-color: gainsboro;
+    border-left: 5px solid black;
+    padding-left: 15px;
+    width: 50%;
+    padding: 10px;
+}
+.wp-block-quote p{
+    font-family: "yugothi-bold";
+}
+.wp-block-quote cite{
+    font-family: "yugothi-light";
 }
 
-.wp-block-quote.is-style-fancy-quote {
-    color: tomato;
+.wp-block-quote.is-center-text {
+    text-align: center;
 }
 
+/* Media Block Stlyes */
+.wp-block-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+figcaption{
+    font-size: 13pt;
+    font-family: "yugothi-light";
+}
+
+.wp-block-cover{
+    margin-bottom: 15px;
+    height: 80vh;
+}
+
+.wp-block-file {
+    padding: 20px;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.wp-block-media-text{
+    margin-bottom: 15px;
+}
+
+.wp-block-embed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.page-links {
+    padding: 20px;
+}
+
+.post-page-numbers {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14pt;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.current{
+    background-color: white;
+}
+
+/* Design Block Stlyes */
+/* Widget Block Stlyes */
+/* Theme Block Stlyes */
+
+
+/* Entry Content */
 .entry-content > * {
     max-width: 1000px;
     margin-left: auto;

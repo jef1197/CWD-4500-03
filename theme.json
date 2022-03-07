@@ -19,15 +19,16 @@
                     
                 },
                 {
-                    "color": "#ff5252",
-                    "name": "Grapefruit",
-                    "slug": "grapfruit"
+                    "color": "#5C6CFD",
+                    "name": "Blue",
+                    "slug": "Blue"
                 }
             ]
         },
         "layout": {
             "contentSize": "1000px",
-            "wideSize": "1200px"
+            "wideSize": "1200px",
+            "fullSize": "100%"
         }
     }
 }
